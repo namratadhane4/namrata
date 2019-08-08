@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<welcome-file-list>
+<welcome-file> h1.html </welcome-file>
+</welcome-file-list>
+<servlet>
+<servlet-name>hello</servlet-name>
+<servlet-class>com.text.LoginDemo</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>hello</servlet-name>
+<url-pattern>/hi</url-pattern>
+</servlet-mapping>
+</web-app>
